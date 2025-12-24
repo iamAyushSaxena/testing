@@ -206,7 +206,7 @@ Rank | Feature | RICE Score | Expected Impact
 ---
 
 ## 🧪 Running Tests
-bash
+```bash
 # Run all tests
 python -m pytest tests/
 
@@ -295,4 +295,5 @@ The datasets are generated programmatically within the code. When you run the sc
 2. **`rice_scores.csv`** - Calculated RICE scores and rankings
 3. **`user_behavior.csv`** - 20,000 synthetic user records for A/B testing
 4. **`ab_test_results.csv`** - Statistical analysis results
+
 
