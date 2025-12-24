@@ -97,21 +97,21 @@ feature-prioritization-framework/
 
 **Step 1: Download/Clone the Project**
 ```bash
-*# If using Git*
+**# If using Git**
 git clone https://github.com/yourusername/feature-prioritization-framework.git
 cd feature-prioritization-framework
 
-# Or download ZIP and extract
+*# Or download ZIP and extract
 ```
 
 **Step 2: Create Virtual Environment (Recommended)**
 ```bash
-*# Windows*
+_# Windows_
 python -m venv venv
 venv\Scripts\activate
 ```
 ```bash
-# macOS/Linux
+__# macOS/Linux__
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -302,4 +302,5 @@ The datasets are generated programmatically within the code. When you run the sc
 2. **`rice_scores.csv`** - Calculated RICE scores and rankings
 3. **`user_behavior.csv`** - 20,000 synthetic user records for A/B testing
 4. **`ab_test_results.csv`** - Statistical analysis results
+
 
