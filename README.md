@@ -85,6 +85,7 @@ feature-prioritization-framework/
 │
 └── scripts/                         # Utility scripts
     └── run_full_pipeline.py         # Complete execution
+```
 
 ---
 
@@ -294,3 +295,4 @@ The datasets are generated programmatically within the code. When you run the sc
 2. **`rice_scores.csv`** - Calculated RICE scores and rankings
 3. **`user_behavior.csv`** - 20,000 synthetic user records for A/B testing
 4. **`ab_test_results.csv`** - Statistical analysis results
+
