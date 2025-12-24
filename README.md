@@ -90,12 +90,12 @@ feature-prioritization-framework/
 
 ## 🚀 Installation & Setup
 
-**Prerequisites**
+**Prerequisites:**
 - Python 3.10 or higher
 - pip (Python package manager)
 - Git (optional, for cloning)
 
-**Step 1: Download/Clone the Project:**
+**Step 1: Download/Clone the Project**
 ```bash
 # If using Git
 git clone https://github.com/yourusername/feature-prioritization-framework.git
@@ -103,23 +103,24 @@ cd feature-prioritization-framework
 # Or download ZIP and extract
 ```
 
-**Step 2: Create Virtual Environment (Recommended):**
+**Step 2: Create Virtual Environment (Recommended)**
 ```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
-
+```
+```bash
 # macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-**Step 3: Install Dependencies:**
+**Step 3: Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-**Step 4: Verify Installation:**
+**Step 4: Verify Installation**
 ```bash
 python -c "import pandas; import scipy; import plotly; print('✅ All dependencies installed!')"
 ```
@@ -138,7 +139,7 @@ This executes the entire workflow:
 4. Generation of all visualizations and reports
 
 
-**Run Individual Modules**
+## Run Individual Modules
 1. **Feature Prioritization Only**
 ```bash
 python src/prioritization.py
@@ -196,6 +197,8 @@ Navigate to `notebooks/` and open any notebook for interactive exploration.
 | 2 | **Instant Checkout** | 6,825 | +12% conversion rate |
 | 3 | **Schedule Orders** | 5,940 | +8% order frequency |
 
+---
+
 ## A/B Test Validation (Smart Reorder)
 - Control Conversion Rate: 12.00%
 - Treatment Conversion Rate: 14.16%
@@ -204,16 +207,18 @@ Navigate to `notebooks/` and open any notebook for interactive exploration.
 - Result: ✅ Statistically Significant
 - Recommendation: SHIP IT
 
----
-
 ## 🧪 Running Tests
 ```bash
 # Run all tests
 python -m pytest tests/
+```
 
+```bash
 # Run specific test file
 python -m pytest tests/test_prioritization.py
+```
 
+```bash
 # Run with coverage
 python -m pytest tests/ --cov=src
 ```
@@ -244,9 +249,9 @@ python -m pytest tests/ --cov=src
 This is a portfolio project, but suggestions are welcome!
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit changes (`git commit -am 'Add improvement'`)
-4. Push to branch (`git push origin feature/improvement`)
+2. Create a feature branch: `git checkout -b feature/improvement`
+3. Commit changes: `git commit -am 'Add improvement'`
+4. Push to branch: `git push origin feature/improvement`
 5. Open a Pull Request
 
 ---
