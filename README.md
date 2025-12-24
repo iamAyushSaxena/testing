@@ -44,47 +44,47 @@ feature-prioritization-framework/
 ├── README.md                          # This file
 ├── LICENSE                            # MIT License
 ├── requirements.txt                   # Python dependencies
-├── .gitignore                        # Git ignore patterns
+├── .gitignore                         # Git ignore patterns
 │
-├── data/                             # All datasets
-│   ├── raw/                          # Original feature data
-│   ├── processed/                    # RICE scores and results
-│   └── synthetic/                    # Simulated user behavior
+├── data/                              # All datasets
+│   ├── raw/                           # Original feature data
+│   ├── processed/                     # RICE scores and results
+│   └── synthetic/                     # Simulated user behavior
 │
-├── src/                              # Source code
-│   ├── config.py                     # Configuration
-│   ├── prioritization.py             # RICE framework
-│   ├── ab_test_simulator.py         # A/B testing logic
-│   ├── statistical_analysis.py      # Advanced statistics
-│   └── visualization.py              # Charts and dashboards
+├── src/                               # Source code
+│   ├── config.py                      # Configuration
+│   ├── prioritization.py              # RICE framework
+│   ├── ab_test_simulator.py           # A/B testing logic
+│   ├── statistical_analysis.py        # Advanced statistics
+│   └── visualization.py               # Charts and dashboards
 │
-├── notebooks/                        # Jupyter notebooks
+├── notebooks/                         # Jupyter notebooks
 │   ├── 01_feature_brainstorming.ipynb
 │   ├── 02_rice_prioritization.ipynb
 │   ├── 03_ab_test_simulation.ipynb
 │   └── 04_final_analysis.ipynb
 │
-├── prds/                            # Product Requirement Documents
+├── prds/                              # Product Requirement Documents
 │   ├── smart_reorder_prd.md
 │   ├── group_ordering_prd.md
 │   └── loyalty_gamification_prd.md
 │
-├── outputs/                         # Generated outputs
-│   ├── figures/                     # PNG charts
-│   ├── dashboards/                  # HTML dashboards
-│   └── reports/                     # Text reports
+├── outputs/                          # Generated outputs
+│   ├── figures/                      # PNG charts
+│   ├── dashboards/                   # HTML dashboards
+│   └── reports/                      # Text reports
 │
-├── tests/                           # Unit tests
+├── tests/                            # Unit tests
 │   ├── test_prioritization.py
 │   └── test_statistical_analysis.py
 │
-├── docs/                            # Additional documentation
+├── docs/                             # Additional documentation
 │   ├── methodology.md
 │   ├── architecture.md
 │   └── lab_logbook.md
 │
-└── scripts/                         # Utility scripts
-    └── run_full_pipeline.py         # Complete execution
+└── scripts/                          # Utility scripts
+    └── run_full_pipeline.py          # Complete execution
 ```
 ---
 
@@ -100,6 +100,7 @@ feature-prioritization-framework/
 # If using Git
 git clone https://github.com/yourusername/feature-prioritization-framework.git
 cd feature-prioritization-framework
+
 # Or download ZIP and extract
 ```
 
@@ -138,6 +139,7 @@ This executes the entire workflow:
 3. Statistical analysis and significance testing
 4. Generation of all visualizations and reports
 
+---
 
 ## Run Individual Modules
 1. **Feature Prioritization Only**
@@ -264,7 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**AYUSH SAXENA**
+**Ayush Saxena**
 - LinkedIn: [Ayush Saxena](linkedin.com/in/ayushsaxena8880)
 - GitHub: [iamAyushSaxena](https://github.com/iamAyushSaxena)
 - Email: aysaxena8880@gmail.com
